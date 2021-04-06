@@ -171,8 +171,8 @@ cat > /etc/issue.net << 'EOF'
 /------------------------------------------------------------------------\
 |                       *** NOTICE TO USERS ***                          |
 |                                                                        |
-| This computer system is the private property of YOUR_COMPANY_NAME      |
-| It is for authorized use only.                                         |
+| This computer system is the private property of                        |
+| OREL Corporation (Private) Limited. It is for authorized use only.     |
 |                                                                        |
 | Users (authorized or unauthorized) have no explicit or implicit        |
 | expectation of privacy.                                                |
@@ -195,7 +195,7 @@ cat > /etc/issue.net << 'EOF'
 EOF
 cp -p /etc/motd /etc/motd_$TIME.bak
 cat > /etc/motd << 'EOF'
-YOUR_COMPANY_NAME AUTHORIZED USE ONLY
+OREL Corporation (Private) Limited USE ONLY
 EOF
 
 echo "Configuring SSH..."
