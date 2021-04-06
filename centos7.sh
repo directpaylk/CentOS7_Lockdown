@@ -172,7 +172,7 @@ cat > /etc/issue.net << 'EOF'
 |                       *** NOTICE TO USERS ***                          |
 |                                                                        |
 | This computer system is the private property of                        |
-| OREL Corporation (Private) Limited. It is for authorized use only.     |
+| DirectPay (Private) Limited. It is for authorized use only.            |
 |                                                                        |
 | Users (authorized or unauthorized) have no explicit or implicit        |
 | expectation of privacy.                                                |
@@ -195,7 +195,7 @@ cat > /etc/issue.net << 'EOF'
 EOF
 cp -p /etc/motd /etc/motd_$TIME.bak
 cat > /etc/motd << 'EOF'
-OREL Corporation (Private) Limited USE ONLY
+DirectPay (Private) Limited USE ONLY
 EOF
 
 echo "Configuring SSH..."
